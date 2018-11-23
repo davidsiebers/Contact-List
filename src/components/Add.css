@@ -1,0 +1,22 @@
+.add {
+    background-image: linear-gradient(to bottom right, rgb(150, 238, 197) , rgb(7, 197, 188));
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    transition: 0.2s;
+}
+
+.add:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 4px;
+}
+
+.add:active {
+    transform: scale(1);
+    cursor: pointer;
+}

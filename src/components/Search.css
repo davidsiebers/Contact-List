@@ -1,0 +1,15 @@
+.search {
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.search input {
+    border: 1px solid rgb(7, 197, 188);
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    width: 200px;
+    outline: none;
+    height: 36px;
+}

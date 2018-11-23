@@ -1,0 +1,82 @@
+.add_popup-overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.add_popup-popup {
+    position: absolute;
+    width: 460px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15), 0 4px 8px rgba(0,0,0,0.20);
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    padding: 20px;
+    z-index: 2;
+}
+
+.add_popup-close {
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient(to bottom right, rgb(150, 238, 197) , rgb(7, 197, 188));
+    border-radius: 4px;
+    padding: 6px;
+    float: right;
+}
+
+.add_popup-close img {
+    transform: rotate(45deg);
+}
+
+.add_popup h3 {
+    margin: 0 0 50px 0;
+    color: rgb(7, 197, 188);
+    font-size: 22px;
+}
+
+input.add_name, input.add_email {
+    border: 1px solid rgb(7, 197, 188);
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    width: calc(100% - 20px);
+    outline: none;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.add_popup a {
+    color: rgb(7, 197, 188);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.add_button {
+    width: auto;
+    height: 20px;
+    background-image: linear-gradient(to bottom right, rgb(150, 238, 197) , rgb(7, 197, 188));
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 24px;
+    bottom: 20px;
+    position: absolute;
+    right: 20px;
+}
+
+.add_popup-close:hover, .add_button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 4px;
+}
+
+.add_popup-close:active, .add_button:active {
+    transform: scale(1);
+    cursor: pointer;
+}

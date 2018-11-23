@@ -1,0 +1,5 @@
+.scrollableContent {
+    height: calc(100vh - 320px);
+    overflow: scroll;
+    margin-top: 16px;
+}
